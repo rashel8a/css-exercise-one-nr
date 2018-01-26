@@ -21,7 +21,7 @@ h1 {
   font-size: 2em;
 }
 
-.example, h3 {
+.example, h1 {
   padding-top: 30px;
   text-align: center;
 }
@@ -30,9 +30,13 @@ h3 {
   font-size: 1.3em;
 }
 
-.element {
+div {
   background-color: green;
   height: 100px;
   margin: 10px;
   width: 100%;
+}
+
+div .element-two {
+  background-color: red;
 }
