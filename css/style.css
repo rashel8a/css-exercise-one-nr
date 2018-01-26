@@ -1,19 +1,13 @@
 body {
   font-size: 14px;
 }
-
+/**** navigation ****/
 nav {
   background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-}
-
-
-section {
-  margin: 0 auto;
-  width: 60%;
 }
 
 h1 {
@@ -25,18 +19,23 @@ h1 {
   padding-top: 30px;
   text-align: center;
 }
+/**** section ****/
+section {
+  margin: 0 auto;
+  width: 60%;
+}
 
 h3 {
   font-size: 1.3em;
 }
-
+/* css for all nine div elements */
 div {
   background-color: green;
   height: 100px;
   margin: 10px;
   width: 100%;
 }
-
+/* css background color only change for last three div elements designated by "element-two" in index.html */
 div .element-two {
   background-color: red;
 }
