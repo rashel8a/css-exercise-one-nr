@@ -36,10 +36,7 @@ h3 {
   width: 100%;
 }
 /* css background color only change for last three div elements designated by "element-two" in index.html */
-.element-two {
-  background-color: red;
-}
 
 .element.element-two {
-  background-color: blue;
+  background-color: red;
 }
