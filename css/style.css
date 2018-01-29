@@ -29,13 +29,13 @@ h3 {
   font-size: 1.3em;
 }
 /* css for all nine div elements */
-div {
+.element {
   background-color: green;
   height: 100px;
   margin: 10px;
   width: 100%;
 }
 /* css background color only change for last three div elements designated by "element-two" in index.html */
-div .element-two {
+.element-two {
   background-color: red;
 }
