@@ -39,3 +39,7 @@ h3 {
 .element-two {
   background-color: red;
 }
+
+.element.element-two {
+  background-color: blue;
+}
